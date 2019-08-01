@@ -23,6 +23,7 @@ spring:
 #        format_sql: true
 #        sql_comments: true
 
-#logging:
-#  level:
-#    org.hibernate.type: debug
+logging:
+  level:
+    com.sk.sample.mall: debug
+    #org.hibernate.type: debug
